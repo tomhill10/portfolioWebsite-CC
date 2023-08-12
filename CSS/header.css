@@ -1,0 +1,25 @@
+/* HEADER CSS  */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto";
+  background-color: var(--mainBlueDark);
+  background-image: -webkit-linear-gradient(
+    230deg,
+    var(--mainBlueLight) 20%,
+    var(--mainBlueDark) 20%
+  );
+  min-height: 69px;
+}
+
+header div {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

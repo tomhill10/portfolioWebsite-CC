@@ -1,0 +1,24 @@
+:root {
+  /* COLOR PALLETS */
+  --mainLight: #e7ecef;
+  --mainDark: #8b8c89;
+  --mainBlueDark: #274c77;
+  --mainBlueMedium: #6096ba;
+  --mainBlueLight: #a3cef1;
+
+  /* TEXT COLORS */
+  --textPrimary: #000000;
+  --textSecondary: #fff;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}

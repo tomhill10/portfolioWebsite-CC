@@ -1,0 +1,12 @@
+footer {
+  width: 100%;
+  height: 69px;
+  background-color: var(--mainBlueDark);
+  color: var(--textSecondary);
+  border-top: 2px solid var(--mainBlueLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 40px;
+}
